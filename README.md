@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LFGL - Luty Friendly Game Launcher
 
 A modern, lightweight game launcher with a premium glass UI aesthetic.
@@ -57,3 +58,7 @@ LFGL/
 ## License
 
 MIT
+=======
+# LFGL
+Lovely Fucking Game Launcher
+>>>>>>> d0055a0e33707fea915e0d02b7817c5b762c0ad2
