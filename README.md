@@ -1,2 +1,2 @@
 # LFGL
-Luty Friendly Game Launcher
+Lovely Fucking Game Launcher
