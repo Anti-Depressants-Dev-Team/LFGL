@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# LFGL - Luty Friendly Game Launcher
+# LFGL - Lovely Fucking Game Launcher
 
 A modern, lightweight game launcher with a premium glass UI aesthetic.
 
