@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentDialog
+    x:Class="LFGL.Dialogs.AddGameDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Add Game"
+    PrimaryButtonText="Add"
+    CloseButtonText="Cancel"
+    DefaultButton="Primary"
+    PrimaryButtonClick="OnPrimaryButtonClick">
+
+    <StackPanel Spacing="16" MinWidth="380">
+        <TextBox x:Name="GameNameBox" Header="Game Name" PlaceholderText="Enter game name..." />
+        
+        <StackPanel Spacing="8">
+            <TextBlock Text="Executable" FontWeight="SemiBold" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="ExePathBox" IsReadOnly="True" PlaceholderText="Select executable..." />
+                <Button Grid.Column="1" Content="Browse..." Margin="8,0,0,0" Click="OnBrowseClick" />
+            </Grid>
+        </StackPanel>
+
+        <ComboBox x:Name="CategoryBox" Header="Category" SelectedIndex="0" HorizontalAlignment="Stretch">
+            <ComboBoxItem Content="Manual" />
+            <ComboBoxItem Content="Favorites" />
+            <ComboBoxItem Content="Steam" />
+            <ComboBoxItem Content="Other" />
+        </ComboBox>
+    </StackPanel>
+</ContentDialog>

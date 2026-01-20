@@ -1,0 +1,23 @@
+# Build outputs
+bin/
+obj/
+publish/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# Rider
+*.DotSettings.user
+
+# Installer output
+Installer/Output/
+
+# Local app data (created at runtime)
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
